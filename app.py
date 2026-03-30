@@ -240,7 +240,5 @@ fig_hm = px.imshow(
 st.plotly_chart(fig_hm, use_container_width=True)
 
 st.sidebar.title("Tentang Dashboard")
-st.sidebar.info("Dashboard ini mereplikasi visualisasi dari analisis topic modeling WVI menggunakan Streamlit dan Plotly.")
-st.sidebar.markdown("---")
 st.sidebar.write("Data: 529 Tanggapan")
 st.sidebar.write("Bahasa: Indonesia")
